@@ -7,3 +7,7 @@
 
 ;;Estados de una tarea
 (define ESTADOS-TAREA '(pendiente asignada completada fallida))
+
+;; Constantes de la plataforma
+(define UMBRAL-CALIDAD 20) ; bajo este valor la respuesta es insatisfactoria
+
