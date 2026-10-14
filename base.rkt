@@ -10,4 +10,6 @@
 
 ;; Constantes de la plataforma
 (define UMBRAL-CALIDAD 20) ; bajo este valor la respuesta es insatisfactoria
+(define COMPLEJIDAD-MAXIMA 20) ;sobre este valor una tarea se planifica en subtareas
+(define COSTO-DELEGACION 2) ;tokens que gasta el agente que delega
 
