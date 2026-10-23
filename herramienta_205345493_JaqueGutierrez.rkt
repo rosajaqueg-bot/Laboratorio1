@@ -1,3 +1,6 @@
+#lang racket
+(provide (all-defined-out)) ;;compartimos todas las funciones declaradas aqui <3
+
 ; Descripcion: Cuenta los elementos de la lista
 ; Dom: nombre (string) X rol (simbolo de ROLES) X costo (int+, entero mayor que 0) X funcion (funcion de un argumento)
 ; Rec: herramienta (herramienta)
